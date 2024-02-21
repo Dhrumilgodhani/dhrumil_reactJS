@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/******************* 1 ************************/
+.maindiv{
+    max-width: 100%;
+    height: auto;
+    background-color:rgb(79, 192, 192);
+    display: flex;
+}
+.maindiv .box1{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    font-size: 40px;
+    background-color: grey;
+}
+.maindiv .box2{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv .box3{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv .box4{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv .box5{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv .box6{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv .box7{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv .box8{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+
+/******************* 2 ************************/
+.maindiv2{
+    max-width: 100%;
+    height: auto;
+    background-color:rgb(79, 192, 192);
+    display: flex;
+    flex-wrap: wrap;
+}
+.maindiv2 .box9{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    font-size: 40px;
+    background-color: grey;
+}
+.maindiv2 .box10{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv2 .box11{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv2 .box12{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv2 .box13{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv2 .box14{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv2 .box15{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv2 .box16{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+
+/******************** 3 *******************/
+
+.maindiv3{
+    max-width: 100%;
+    height: auto;
+    background-color:rgb(79, 192, 192);
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.maindiv3 .box17{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    font-size: 40px;
+    background-color: grey;
+}
+.maindiv3 .box18{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv3 .box19{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv3 .box20{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv3 .box21{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv3 .box22{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv3 .box23{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+.maindiv3 .box24{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: gray;
+    margin: 10px;
+}

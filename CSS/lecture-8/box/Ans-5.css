@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.maindiv .one{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(160, 87, 228);
+    display: flex;
+}
+
+.maindiv .one h1{
+    margin-top: 50px;
+    margin-left: 550px;
+}
+
+.maindiv .mainrt{
+    margin: 10px;
+    display: flex;
+}
+.maindiv .article1{
+    margin: 10px;
+    background-color: aqua;
+}
+.mainrt .article1 p{
+    margin-left: 20px;
+}
+.mainrt .article1 h1{
+    margin-left: 20px;
+}
+
+.maindiv .article2{
+    margin: 10px;text-align: start;
+    background-color: aqua;
+}
+.mainrt .article2 p{
+    margin-left: 20px;
+}
+.mainrt .article2 h1{
+    margin-left: 20px;
+}
+
+.maindiv .article3{
+    margin: 10px;
+    background-color: aqua;   
+}
+.mainrt .article3 p{
+    margin-left: 20px;
+}
+.mainrt .article3 h1{
+    margin-left: 20px;
+}

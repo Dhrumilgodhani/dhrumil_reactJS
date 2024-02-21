@@ -1,0 +1,146 @@
+/* css width / height */
+
+/* .box{
+    height: auto;
+    min-width: 400px;
+    border:2px solid black;
+}
+
+img{
+    height: auto;
+    min-width: 500px;
+} */
+
+
+/* listing tag and table tag in css */
+
+
+/* listing tag */
+
+
+/*
+    list-style-type
+    list-style-position
+    list-style-image
+*/
+
+ol{
+    /* list-style-type:decimal; */
+    /* list-style-position: inside; */
+    /* list-style-image: url('../image/car.png'); */
+}
+
+
+
+/* unorder list */
+
+ul{
+    /* list-style-type: decimal; */
+}
+
+/* css box-shadow */
+
+.shadow{
+    height: 200px;
+    width: 200px;
+    border:2px solid black;
+    margin: 50px;
+    box-shadow: inset -10px -10px 10px gray , 20px 20px 2px red;
+}
+
+
+
+/* accent-color*/
+
+/* input{
+    accent-color: #458265;
+} */
+
+
+/* 
+     disabled
+     enabled(defult)
+    ::placeholder
+    :checked
+    :focus
+    :hover
+    :required
+    :invalid
+    :valid 
+    ::marker
+
+*/
+
+/* ::placeholder{
+    color:orange;
+    text-decoration: underline;
+}
+
+input:focus{
+    background-color: brown;
+    border:0;
+    outline: 0;
+    border-radius: 20px;
+} */
+
+/* input:hover{
+    background-color: brown;
+    border:0;
+    outline: 0;
+    border-radius: 20px;
+}  */
+
+/* div{
+    height: 300px;
+    width: 300px;
+    border:1px solid black;
+}
+
+div:hover input{
+    background-color: brown;
+    border:0;
+    outline: 0;
+    border-radius: 20px; 
+} */
+
+/* input:invalid{
+    border:3px solid red;
+}
+input:valid{
+    border:3px solid green;
+} */
+
+
+/* div:read-only{
+    background-color: green;
+}
+textarea:read-write{
+    text-decoration: underline;
+    color:orange
+} */
+
+
+/*
+    :read-only
+    :read-write
+    :root
+    :lang()
+
+*/
+/* :root{
+    --color1:red;
+    --color2:green;
+    --h-100:200px;
+    --w-200:200px
+}
+
+.box{
+    height: var(--h-100);
+    width: var(--w-200);
+    background-color: var(--color2);
+} */
+
+/* :lang(EN){
+    background-color: green;
+    border:2px solid orange
+} */

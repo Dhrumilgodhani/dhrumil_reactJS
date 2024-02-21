@@ -1,0 +1,32 @@
+.miandiv{
+    height: 300px;
+    width: 600px;
+    background-color: blueviolet;
+    margin-left: 450px;
+    margin-top: 80px;
+    border: 3px solid black;
+}
+.miandiv:hover{
+    animation-name: zoom;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite; */
+    animation-fill-mode: forwards;
+}
+@keyframes zoom{
+    0%{
+        transform:scale(1);
+        /* overflow: hidden; */
+        
+    }
+    50%{
+        transform: scale(1.2);
+        overflow: hidden;
+        transition: all 2s linear;
+    }
+    100%{
+        transform: scale(1);
+        /* overflow: hidden; */
+    }
+}
+
+

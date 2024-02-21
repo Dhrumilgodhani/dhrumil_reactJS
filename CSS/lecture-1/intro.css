@@ -1,0 +1,40 @@
+body
+
+{
+  
+  background-color: aqua;
+}
+main 
+{
+  border: 2px coral;
+  background-color: blue;
+  text-decoration: underline;
+}
+.std 
+{
+  text-decoration: none !important;
+}
+
+p{
+  background-color: blueviolet;
+}
+.container .cont section h2 
+{
+  background-color: brown;
+  text-decoration:none;
+}
+
+.container section p
+{
+  background-color: red;
+}
+.container .V
+{
+  background-color: RED;
+}
+#f{
+    text-decoration: none;
+}
+p {
+    text-decoration: underline;
+}

@@ -1,0 +1,60 @@
+.box2 {
+    margin: 200px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(237, 224, 207);
+    animation-name: box;
+    animation-duration: 1.30s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    justify-content: baseline;
+    align-items: center;
+    display: flex;
+    animation-timing-function:linear;
+}
+
+@keyframes box {
+    0% {
+        height: 180px;
+        width: 180px;
+        transform: scale(10px);
+        border-radius: 20%;
+        background-color: rgb(94, 94, 211);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    40% {
+        height: 120px;
+        width: 120px;
+        transform: scale(20px);
+        border-radius: 50%;
+        background-color: rgb(203, 148, 157);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    70% {
+        height: 80px;
+        width: 80px;
+        transform: scale(50px);
+        border-radius: 80%;
+        background-color: rgb(152, 64, 64);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    100%{
+        height: 50px;
+        width: 50px;
+        transform: scale(100px);
+        border-radius: 100%;
+        background-color: rgb(240, 56, 56);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+}

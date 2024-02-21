@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.maindiv .one{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(160, 87, 228);
+    display: flex;
+}
+
+.maindiv .one h1{
+    margin-top: 50px;
+    margin-left: 550px;
+}
+
+/* .maindiv .mainrt{
+    margin: px;
+    
+} */
+.maindiv .article1{
+    margin: 5px;
+    background-color: aqua;
+}
+.maindiv .article1 p{
+    margin-left: 10px;
+}
+.maindiv .article1 h1{
+    margin-left: 10px;
+}
+
+.maindiv .article2{
+    margin: 5px;
+    background-color: aqua;
+}
+.maindiv .article2 p{
+    margin-left: 10px;
+}
+.maindiv .article2 h1{
+    margin-left: 10px;
+}
+
+.maindiv .article3{
+    margin: 5px;
+    background-color: aqua;   
+}
+.maindiv .article3 p{
+    margin-left: 10px;
+}
+.maindiv .article3 h1{
+    margin-left: 10px;
+}

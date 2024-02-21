@@ -1,0 +1,22 @@
+.miandiv{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(53, 2, 100);
+    border-radius: 100%;
+    animation-name: move ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin: 100px;
+}
+@keyframes move{
+    0%{
+        transform: translate(0px);
+    }
+    50%{
+        transform: translate(500px);
+        border: 15px solid rgb(193, 71, 193);
+    }
+    100%{
+        transform: translate(1000px);
+    }
+}
