@@ -1,0 +1,87 @@
+.container {
+  margin: 30px;
+}
+.container .navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.container .navitems ul {
+  list-style-type: none;
+  display: flex;
+}
+.container .navitems ul li a {
+  color: black;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.container .navitems ul li a:hover {
+  color: orange;
+}
+.container .menu .button {
+  height: 60px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff6d09;
+}
+.container .menu .button img {
+  height: 20px;
+  width: 20px;
+}
+.container .menu .button a {
+  text-decoration: none;
+  color: black;
+}
+
+.main img {
+  width: 100%;
+  height: 150px;
+}
+.main .text1 {
+  position: absolute;
+  top: 120px;
+  left: 650px;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+}
+.main .new {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.main .new img {
+  height: 150px;
+  width: 400px;
+}
+.main .text2 {
+  display: flex;
+  justify-content: center;
+}
+.main .text2 p {
+  font-size: 35px;
+  color: #ff6d09;
+}
+.main .text2 h1 {
+  font-size: 40px;
+}
+.main .button2 {
+  display: flex;
+  justify-content: center;
+}
+.main .button2 .one {
+  height: 50px;
+  width: 170px;
+  border: 0;
+  background-color: #ff6d09;
+  text-decoration: none;
+  color: white;
+}
+.main .img5 {
+  margin-top: 20px;
+}
+.main .img5 img {
+  height: 100%;
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,100 @@
+@import 'All';
+
+@mixin position {
+    display: $d-flex;
+    justify-content: $justify-center;
+    align-items: $align-center;
+}
+
+.container{
+  margin: 30px;
+
+  .navigation{
+    display: flex;
+    justify-content: space-between;
+  }
+  .navitems ul{
+    list-style-type: none;
+    display: flex;
+    li a{
+      color: black;
+      margin-left: 30px;
+      text-decoration: none;
+      &:hover{
+        color: orange;
+      }
+    }
+  }
+  .menu{
+    .button{
+      height: 60px;
+      width: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ff6d09;
+      img{
+        height: 20px;
+        width: 20px;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+        
+      }
+    }
+  }
+}
+
+.main{
+    img{
+      width: 100%;
+      height: 150px;
+    }
+    .text1{
+      position: absolute;
+      top: 120px; left: 650px;
+      text-align: center;
+      line-height: 20px;
+      color: white;
+    }
+    .new{
+      margin-top: 60px;
+      display: flex;
+      justify-content: center;
+      img{
+        height: 150px;
+        width: 400px;
+      }
+    }
+    .text2{
+      display: flex;
+      justify-content: center;
+      p{
+        font-size: 35px;
+        color: #ff6d09;
+      }
+      h1{
+        font-size: 40px;
+      }
+    }
+    .button2{
+      display: flex;
+      justify-content: center;
+      .one{
+        height: 50px;
+        width: 170px;
+        border: 0;
+        background-color: #ff6d09;
+        text-decoration: none;
+        color: white;
+      }
+    }
+    .img5{
+      margin-top: 20px;
+      img{
+        height: 100%;
+        width: 100%;
+      }
+    }
+}
