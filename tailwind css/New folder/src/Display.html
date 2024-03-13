@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Display</title>
+        <link rel="stylesheet" href="output.css">
+    </head>
+    <body>
+        <!--Display-->
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            <span class="inline bg-cyan-400"> display: inline</span> voluptates
+            exercitationem? Dolores totam minima similique, omnis est nam animi
+            ut?
+        </div>
+        <br>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            <span
+                class="inline-block h-[100px] w-[100px]   bg-orange-500 px-10">
+                display: inline-Block</span> voluptates exercitationem? Dolores
+            totam minima similique, omnis est nam animi ut?
+        </div>
+        <br>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            <span class="block w-40 h-10 bg-green-500"> display:Block</span>
+            voluptates exercitationem? Dolores totam minima similique, omnis est
+            nam animi ut?
+        </div>
+
+        <!--Flow Root-->
+        <div class="p-5 mt-10">
+            <div class="flow-root">
+                <div class="my-2">Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Blanditiis, adipisci?</div>
+            </div>
+            <div class="flow-root ">
+                <div class="my-4 ">Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Laudantium, dignissimos.</div>
+            </div>
+        </div>
+
+        <!--Flex-->
+        <div
+            class="flex items-center w-2/6 h-36 bg-green-400 mx-[100px] relative">
+            <img src="/image/redman.jpg"
+                class="h-20 rounded-full absolute inset-0 m-auto ">
+            <div>
+                <h1
+                    class="absolute right-20 text-black capitalize text-lg">RUdra
+                    Sutariya</h1>
+                <h1
+                    class="absolute bottom-20 right-14 m-auto capitalize text-lg">Frontend
+                    Devloper</h1>
+            </div>
+        </div>
+
+        <!--Inline Flex-->
+        <p class="mt-10">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Deserunt accusantium voluptas provident incidunt quam
+            <span class="inline-flex items-baseline">
+                <img src="/image/redman.jpg"
+                    class="w-8 h-8 rounded-full mx-2 self-center">
+                <span>Rudra</span>
+            </span>
+            exercitationem architecto labore repellat dignissimos?
+        </p>
+
+        <!--Grid-->
+        <div class="grid gap-4 grid-cols-3 grid-rows-3 mt-10">
+            <div class="w-40 h-40 bg-green-100 rounded-xl flex justify-center items-center">01</div>
+            <div class="w-40 h-40 bg-green-200 rounded-xl flex justify-center items-center">02</div>
+            <div class="w-40 h-40 bg-green-300 rounded-xl flex justify-center items-center">03</div>
+            <div class="w-40 h-40 bg-green-400 rounded-xl flex justify-center items-center">04</div>
+            <div class="w-40 h-40 bg-green-500 rounded-xl flex justify-center items-center">05</div>
+            <div class="w-40 h-40 bg-green-600 rounded-xl flex justify-center items-center">06</div>
+            <div class="w-40 h-40 bg-green-700 rounded-xl flex justify-center items-center">07</div>
+            <div class="w-40 h-40 bg-green-800 rounded-xl flex justify-center items-center">08</div>
+            <div class="w-40 h-40 bg-green-900 rounded-xl flex justify-center items-center">09</div>
+    
+        </div>
+
+        <!--Hidden-->
+        <div class="flex mt-20 gap-10">
+            <div class="w-40 h-40 bg-yellow-100 rounded-xl flex justify-center items-center">01</div>
+            <div class="w-40 h-40 bg-yellow-500 rounded-xl flex justify-center items-center hidden">02</div>
+            <div class="w-40 h-40 bg-yellow-800 rounded-xl flex justify-center items-center">03</div>
+            
+        </div>
+    </body>
+</html>

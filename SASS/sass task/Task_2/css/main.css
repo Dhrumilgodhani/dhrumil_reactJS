@@ -1,0 +1,227 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin: 30px;
+}
+.container .navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.container .logo img {
+  width: 100%;
+  height: 40px;
+}
+.container .navitems ul {
+  list-style-type: none;
+  display: flex;
+}
+.container .navitems ul li a {
+  color: black;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.container .navitems ul li a:hover {
+  color: orange;
+}
+.container .menu .button {
+  height: 60px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff6d09;
+}
+.container .menu .button:hover {
+  transition-duration: 1s;
+  transform: scale(0.8);
+  box-shadow: 9px 9px 10px gray;
+}
+.container .menu .button img {
+  height: 20px;
+  width: 20px;
+}
+.container .menu .button a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (min-width: 320px) {
+  .container {
+    display: block;
+  }
+  .container .navitems ul li {
+    display: none;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    display: block;
+  }
+}
+@media (max-width: 425px) {
+  .container {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    display: block;
+  }
+}
+@media (max-width: 1440px) {
+  .container {
+    display: block;
+  }
+  .container .navitems {
+    display: block;
+  }
+}
+/****** banner ***********/
+.main img {
+  width: 100%;
+  height: 150px;
+}
+.main .img4 {
+  width: 1505px;
+  height: 150px;
+  background-color: #241234;
+  position: absolute;
+  opacity: 0.5;
+}
+.main .text1 {
+  position: absolute;
+  top: 140px;
+  left: 670px;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+}
+.main .new {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.main .new img {
+  border-radius: 100%;
+  height: 250px;
+  width: 250px;
+}
+.main .new .text2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main .new .text2 pre {
+  font-size: 39px;
+  -webkit-text-decoration: underline #ff6d09;
+          text-decoration: underline #ff6d09;
+}
+.main .new .text2 h2 {
+  font-size: 39px;
+}
+.main .new .text2 h1 {
+  font-size: 42px;
+  color: #ff6d09;
+}
+.main .new .text2 p {
+  position: absolute;
+  left: 730px;
+  color: black;
+  font-size: 15px;
+}
+.main .new .text2 article {
+  position: absolute;
+  left: 730px;
+  top: 530px;
+  color: black;
+  font-size: 10px;
+}
+.main .button2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-left: 290px;
+}
+.main .button2 .one {
+  height: 50px;
+  width: 170px;
+  border: 0;
+  background-color: #ff6d09;
+  text-decoration: none;
+  color: white;
+}
+.main .button2 .one:hover {
+  transition-duration: 1s;
+  transform: scale(0.8);
+  box-shadow: 9px 9px 10px gray;
+}
+.main .button2 .tow {
+  height: 50px;
+  width: 170px;
+  border: 2px solid black;
+  background-color: white;
+  text-decoration: none;
+}
+.main .button2 .tow:hover {
+  transition-duration: 1s;
+  transform: scale(0.8);
+  box-shadow: 9px 9px 10px gray;
+}
+.main .imgall5 {
+  margin-top: 20px;
+}
+.main .imgall5 img {
+  height: 100%;
+  width: 100%;
+}
+.main .imgall5 .tool {
+  width: 1504px;
+  height: 134px;
+  background-color: #241234;
+  position: absolute;
+  opacity: 0.5;
+}
+.main .imgall5 .alltext {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  bottom: -25px;
+  left: 650px;
+}
+.main .imgall5 .alltext p {
+  color: white;
+  font-size: 35px;
+}
+.main .imgall5 .alltext h1 {
+  color: #ff6d09;
+  font-size: 45px;
+}
+
+@media (max-width: 320px) {
+  .main {
+    display: block;
+  }
+}
+@media (max-width: 375px) {
+  .main {
+    display: block;
+  }
+}
+@media (max-width: 425px) {
+  .main {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .main {
+    display: block;
+  }
+}
+@media (max-width: 1440px) {
+  .main {
+    display: block;
+  }
+}/*# sourceMappingURL=main.css.map */

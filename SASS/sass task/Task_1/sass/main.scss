@@ -8,10 +8,13 @@
 
 .container{
   margin: 30px;
-
   .navigation{
     display: flex;
     justify-content: space-between;
+  }
+  .logo img{
+    width: 100%;
+    height: 40px;
   }
   .navitems ul{
     list-style-type: none;
@@ -46,55 +49,71 @@
   }
 }
 
+/****** banner ***********/
+
 .main{
-    img{
+  img{
       width: 100%;
       height: 150px;
     }
-    .text1{
-      position: absolute;
-      top: 120px; left: 650px;
-      text-align: center;
-      line-height: 20px;
+  .img4{
+   width: 1519px;
+   height: 150px;
+   background-color:#241234;
+   position: absolute;
+   opacity: 0.5;
+  }
+  .text1{
+    position: absolute;
+    top: 140px; left: 670px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+  }
+  .new{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    img{
+      height: 150px;
+      width: 400px;
+    }
+  }
+  .text2{
+    display: flex;
+    justify-content: center;
+    p{
+      font-size: 35px;
+      color: #ff6d09;
+    }
+    h1{
+      font-size: 40px;
+    }
+  }
+  .button2{
+    display: flex;
+    justify-content: center;
+    .one{
+      height: 50px;
+      width: 170px;
+      border: 0;
+      background-color: #ff6d09;
+      text-decoration: none;
       color: white;
     }
-    .new{
-      margin-top: 60px;
-      display: flex;
-      justify-content: center;
-      img{
-        height: 150px;
-        width: 400px;
-      }
+  }
+  .imgall5{
+    margin-top: 20px;
+    img{
+      height: 100%;
+      width: 100%;
     }
-    .text2{
-      display: flex;
-      justify-content: center;
-      p{
-        font-size: 35px;
-        color: #ff6d09;
-      }
-      h1{
-        font-size: 40px;
-      }
+    .tool{
+      width: 1519px;
+      height: 66px;
+      background-color:#241234;
+      position: absolute;
+      opacity: 0.5;
     }
-    .button2{
-      display: flex;
-      justify-content: center;
-      .one{
-        height: 50px;
-        width: 170px;
-        border: 0;
-        background-color: #ff6d09;
-        text-decoration: none;
-        color: white;
-      }
-    }
-    .img5{
-      margin-top: 20px;
-      img{
-        height: 100%;
-        width: 100%;
-      }
-    }
+  }
 }

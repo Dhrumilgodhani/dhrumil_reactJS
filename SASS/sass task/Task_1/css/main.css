@@ -5,6 +5,10 @@
   display: flex;
   justify-content: space-between;
 }
+.container .logo img {
+  width: 100%;
+  height: 40px;
+}
 .container .navitems ul {
   list-style-type: none;
   display: flex;
@@ -34,14 +38,22 @@
   color: black;
 }
 
+/****** banner ***********/
 .main img {
   width: 100%;
   height: 150px;
 }
+.main .img4 {
+  width: 1519px;
+  height: 150px;
+  background-color: #241234;
+  position: absolute;
+  opacity: 0.5;
+}
 .main .text1 {
   position: absolute;
-  top: 120px;
-  left: 650px;
+  top: 140px;
+  left: 670px;
   text-align: center;
   line-height: 20px;
   color: white;
@@ -78,10 +90,17 @@
   text-decoration: none;
   color: white;
 }
-.main .img5 {
+.main .imgall5 {
   margin-top: 20px;
 }
-.main .img5 img {
+.main .imgall5 img {
   height: 100%;
   width: 100%;
+}
+.main .imgall5 .tool {
+  width: 1519px;
+  height: 66px;
+  background-color: #241234;
+  position: absolute;
+  opacity: 0.5;
 }/*# sourceMappingURL=main.css.map */
