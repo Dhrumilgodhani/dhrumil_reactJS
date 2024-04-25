@@ -1,0 +1,9 @@
+@media (max-width:992px){
+    .first{
+        display: block;
+    }
+    .second{
+        margin-top: -15px;
+    }
+
+}
