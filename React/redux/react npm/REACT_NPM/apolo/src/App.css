@@ -1,0 +1,11 @@
+.box{
+    background-color: aquamarine;
+    border: 2px solid black;
+    /* margin-left: 10px; */
+}
+
+.box1{
+    background-color: aquamarine;
+    border: 2px solid black;
+    margin-top: 10px;
+}

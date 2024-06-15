@@ -14,25 +14,14 @@ let promise1 = new Promise(function(resolve , reject){
         console.log(`${process1.Fruits[2]} Flavour production`);
         resolve()
     } , 5000)
-})
-
-
-promise1.then(() => {
+}).then(() => {
     console.log(`${process1.production[0]}`)
-} , 2000)
-
-promise1.then(() => {
+} , 2000).then(() => {
     console.log(`production with added some ingrediant was name called ${process1.AddIngrediant[0]} and ${process1.AddIngrediant[1]}`)
-} , 1000)
-
-promise1.then(() => {
+} , 1000).then(() => {
     console.log(`add toppings was ${process1.Toppings[0]} and ${process1.Toppings[1]}`)
-} , 2000)
-
-promise1.then(() => {
+} , 2000).then(() => {
     console.log(`icecrem was package with ${process1.Packaging[1]}`)
-} , 1000)
-
-promise1.then(() => {
+} , 1000).then(() => {
     console.log(`after packaging was ${process1.AfterPack[0]}`)
 } , 5000)
